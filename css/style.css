@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+.landing-page{
+    background-color:black;
+
+}
+
+.landing-page{
+    text-align:center;
+}
+
+h1{
+    size: 25px;
+    background-color:rgb(182, 86, 8);
+    color:aliceblue;
+    font-size:medium;
+    text-shadow:-1px -2px 3px rgb(255, 214, 79);
+}
+
+.pop{
+    background-image: url(../image/food-366875_1920.jpg);
+    height: 500px;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+
+
+h2{
+    font-size: 60px;
+    color:aliceblue;
+    text-shadow: 2px  2px 1px #fdfeff,
+    -2px  2px 1px #000000,
+     2px -2px 1px #f78706,
+    -2px -2px 1px #000000,
+     2px  0px 1px #000000,
+     0px  2px 1px #be4f04,
+    -2px  0px 1px #020202,
+     0px -2px 1px #000000;
+}
+
+h3{
+    size:20px;  /*ボタンの文字の大きさ*/
+    color:white;
+}
+
+.clip.circle{
+    clip-path: circle(35%);
+    width: 500px;
+    margin-right:100px; 
+}
+
+
+
+.bottom2{
+    background-color:rgb(2, 71, 0);
+    width:300px;
+    margin-left:440px;
+}
+
+.photo{
+    background-image: url(../image/coffeehouse-2600877_1920.jpg );
+    height: 700px;
+    background-size: contain;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.photo2{
+    margin-top:20px;
+    margin-left:8%;
+}
+
+.overview{
+    color:white;
+}
+
+.lst-text{
+    color:rgb(255, 255, 255);
+}
+
+button.button1 {
+    padding: 10px 30px;
+    background-color:rgb(199, 60, 5);
+}
+ 
+
+
+.map-1{
+    color: white;
+
+}
+
+.map-2{
+    color: white;
+}
+
+.explanation{
+    color:white;
+    font-size:medium;
+    text-shadow:-1px -2px 3px rgb(255, 214, 79);
+}
+
+.grid {
+    display: grid;
+    gap: 26px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+.item{
+    background-size: cover;
+    color:white;
+}
+
+.ec{
+    color:white;
+}
+
+.bg-video-wrap {
+    position: relative;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    filter: sepia(30%);
+
+ }
+
+ .abc{
+     color:white;
+ }
+
+.click-button{
+    margin-top:100px;
+}
+ 
+.item2{
+    background-size: cover;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    display: inline-block;
+}
+
+.page-2{
+    background-color:#020202;  /*ECページ*/
+}
+
+.explanation-2{
+    color:#fdfeff;
+}
+
+.shop{
+    color:#fdfeff;
+}
